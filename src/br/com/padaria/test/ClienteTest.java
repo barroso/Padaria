@@ -54,7 +54,6 @@ public class ClienteTest
 		cliente = clienteDAO.findById(3L);
 		clienteDAO.removeEntity(cliente);
 
-		// lista todos os clientes
 		System.out.println(clienteDAO.findAll());
 
 	}
