@@ -12,6 +12,7 @@ public class ClienteTest
 	public static void main(String[] args) throws Exception
 	{
 		HipersonicDB db = new HipersonicDB("bancohibernatedb");
+		
 		try
 		{
 			db.start();
